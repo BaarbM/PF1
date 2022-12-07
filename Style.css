@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, #0c7c85, #053d45);
+    background-image: url(Imagenes/tileburnedin.jfif);
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+    color: #011104;
+    font-family: 'Rubik Bubbles', cursive;
+    text-shadow: 2px 2px 9px #82fd82;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 15px;
+    padding: 20px;
+    
+    
+  }
+  
+  body {
+    margin:0;
+    background:linear-gradient(100deg, #76FB75, #072E05, #001405); 
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px;
+  }
+  
+  .contenedor-img {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+  }
+  
+  .contenedor-img img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card {
+    width: 225px;
+    height: 255px;
+    border: 2px solid #215F20;
+    background: linear-gradient(190deg, #3C6F55, #1E1E1E, #3C6F55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 5px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: #20B5CE;
+    text-align: center;
+    box-shadow:2px 2px 15px #82fd82;
+    text-shadow: 2px 2px 9px  #43bcd1;
+  }
+  .card:hover {
+    transition-duration: 30ms;
+    transform: scale(1.45);
+    box-shadow: 5px 5px 19px #82fd82;
+    background: linear-gradient(190deg,#000001,#1E1E1E, #3C6F55,#1E1E1E, #000001);
+    border: 1px solid #76FB75;
+    color: #76FB75;
+    border-radius: 8px;
+    text-shadow: 2px 2px 9px #82fd82;
+
+    
+   
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-shadow: 2px 2px 9px #82fd82;
+    display: flex;
+    background: linear-gradient(150deg,#000001,#1E1E1E, #3C6F55, #4FEB16);
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #4FEB16;
+    font-size: 20px;
+    
+  }
+  .footer {
+   
+    text-align: right;
+    padding-left: 10%;
+    padding-top: 20px;
+
+  }
+
+  
